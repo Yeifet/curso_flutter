@@ -81,7 +81,9 @@ Widget campoContrasena() {
 
 Widget botonEntrar() {
   return TextButton(
-      onPressed: () {},
+      onPressed: () {
+        print('presionaste el botón');
+      },
       style: TextButton.styleFrom(
           backgroundColor: Colors.purple.shade800,
           padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15)),
